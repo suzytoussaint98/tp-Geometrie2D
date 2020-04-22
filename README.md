@@ -1,8 +1,8 @@
-*Sujet:*
+*Sujet: Géométrie 2D
 
 
 *Membres du groupe:*
 
-- Homer Simpson
-- Ned Flanders
-- Otto Bus
+- TOUSSAINT SUZY
+- ROBERT MAXENCE
+- VIDAL CAMILLE
