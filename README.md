@@ -1,8 +1,8 @@
-*Sujet:* Géométrie 2D
+Sujet: Géométrie 2D
 
 
-*Membres du groupe:*
+Membres du groupe:
 
-- Camille VIDAL
-- Maxence ROBERT
-- Suzy TOUSSAINT
+- TOUSSAINT SUZY
+- ROBERT MAXENCE
+- VIDAL CAMILLE
