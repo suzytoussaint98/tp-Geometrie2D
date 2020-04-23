@@ -4,6 +4,7 @@ from dossier_code.PointCloud import PointCloud
 import matplotlib.pyplot as plt
 import random
 
+
 def generate_random_points(n):
 
     random_points = list()
