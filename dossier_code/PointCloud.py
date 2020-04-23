@@ -1,5 +1,4 @@
-
-Class PointCloud :
+class PointCloud :
 
     points = [1, 2, 3, 4, 5] # On cherche le plus petit point d'abscisse x afin de trouver le point le plus a gauche
 
