@@ -94,7 +94,6 @@ class PointCloud:
     
 ainsi nous pouvons créer " à la main" les points et le polygone 
 
-        
 """
 
 # affichage du résultat
