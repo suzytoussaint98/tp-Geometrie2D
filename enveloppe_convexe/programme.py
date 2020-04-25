@@ -23,13 +23,61 @@ previous_point = Point(first_point.x, 0)  # variable qui contient un point imagi
 """
 DEBUT DE VOTRE CODE
 """
+#Création des différentes variables demandées.
+current_point = first_point
+next_point = None
+help(enveloppe_convexe.add_point)
+enveloppe_convexe.add_point(first_point)
+help(nuage_de_points)
+
+"""
+6) Méthode pour retourner le point qui forme le plus grand angle avec current_point et previous_point : 
+"""
 
 
+def get_max_angle(self, current_point, previous_point):
+    """
+    retourne le point qui forme le plus grand angle avec current_point et previous_point
+    """
+    max_arc = 0
+    max_point = current_point
+
+    for p in self.points:
+        if not p.equals(current_point):
+            arc = current_point.angle(previous_point, p)
+            if arc > max_arc:
+                max_arc = arc
+                max_point = p
+
+    return max_point
+
+#Création de la variable toto
+
+toto = get_max_angle
+next_point = toto
 
 
+# Implémentation de l'algortihme
+
+angle = 0
+
+while next_point != current_point :
+    enveloppe_convexe.add_point(current_point)
+    max_angle = get_max_angle
+    next_point = angle
+    previous_point = current_point
+    current_point = next_point
+    print(enveloppe_convexe)
 
 """
 FIN DE VOTRE CODE
+
+Nous ne parvenons pas créer le polygone selon les étapes décris dans le sujet mais nous avons cependant compris comment le créer autrement : 
+dans la class polygon il suffis de tracer les lignes du polygone en mettant des valeur ici :  
+ def __init__(self):
+        self.x_list = [10,400,500]
+        self.y_list = [10,400,300]
+        
 """
 
 # affichage du résultat
