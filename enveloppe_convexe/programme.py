@@ -69,14 +69,31 @@ while next_point != current_point :
     current_point = next_point
     print(enveloppe_convexe)
 
+
+
 """
 FIN DE VOTRE CODE
 
 Nous ne parvenons pas créer le polygone selon les étapes décris dans le sujet mais nous avons cependant compris comment le créer autrement : 
-dans la class polygon il suffis de tracer les lignes du polygone en mettant des valeur ici :  
+dans la class polygon il suffit de tracer les lignes du polygone en mettant des valeur ici :  
  def __init__(self):
         self.x_list = [10,400,500]
         self.y_list = [10,400,300]
+et nous devons enlever les points qui se créent de manière aléatoire en enlevant la fonction random.randit et en ajoutant nous meme nos point dans la classe point cloud
+class PointCloud:
+
+    def __init__(self, n):
+        random_points = list()
+        for i in range(0, n):
+            x = (0, 10,7,1000) (valeur exemple)
+            y = 0, 10,71000)
+            random_points.append(Point(x, y))
+        self.points = random_points
+
+    def get_most_left(self): 
+    
+ainsi nous pouvons créer " à la main" les points et le polygone 
+
         
 """
 
